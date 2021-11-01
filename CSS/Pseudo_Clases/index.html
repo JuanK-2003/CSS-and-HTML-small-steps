@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Clases</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<header>
+    <nav>
+        <ul class="main-nav">
+            <li class="main-nav__item"><a href=""> Home </a></li>
+            <li class="main-nav__item"><a href=""> Cursos </a></li>
+            <li class="main-nav__item"><a href=""> Instructores </a></li>
+            <li class="main-nav__item"><a href=""> Blog </a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <main>
+        <label class="main-lab" for="nombre">
+            <span class="main-span" >Introduce tú nombre</span>
+            <input class="main-input" type="text" name="nombre" id="nombre" placeholder="Tú nombre" autocomplete="name" required>
+            <br>
+            <br>
+        </label>
+        <label class="main-lab" for="correo">
+            <span class="main-span">Introduce tú correo</span>
+            <input class="main-input" type="email" name="corre" id="correo" placeholder="Tú Email" autocomplete="email" required>
+            <br>
+            <br>
+        </label>
+        <label class="main-lab" for="pais">
+            <span class="main-span">Introduce tú país</span>
+            <input class="main-input" name="pais" id="pais" placeholder="Tú País" autocomplete="country" required>
+            <br>
+            <br>
+        </label>
+        <label class="main-lab" for="cp">
+            <span class="main-span">Introduce tú código postal</span>
+            <input class="main-input" type="text" name="cp" id="cp" placeholder="Código Postal" autocomplete="postal-code" required>
+            <br>
+            <br>
+        </label>
+        <input type="submit">
+    </form>
+    </main>
+</body>
+</html>

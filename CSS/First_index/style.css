@@ -1,0 +1,15 @@
+p {
+    color: blue;
+    font-size: x-large;
+}
+
+/* Clase */
+.parrafo {
+    color: coral;
+}
+
+/* ID */
+#text {
+    color: crimson;
+    font-style: oblique;
+}
